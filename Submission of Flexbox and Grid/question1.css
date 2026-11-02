@@ -1,0 +1,120 @@
+/* Basic page setup */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #222;
+    min-height: 100vh;
+
+    /* Flexbox keeps footer at bottom */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Fixed header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+
+    background-color: #172554;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 5%;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 1.5rem;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1em;
+}
+
+nav a:hover {
+    color: #93c5fd;
+}
+
+/* Main content */
+main {
+    flex: 1;
+    padding-top: 70px;
+}
+
+/* Hero section */
+.hero {
+    min-height: 70vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 50px 8%;
+    background-color: #dbeafe;
+}
+
+.bio {
+    width: 55%;
+}
+
+.bio h2 {
+    font-size: 2rem;
+    color: #172554;
+}
+
+.bio p {
+    font-size: 1.1em;
+    line-height: 1.7;
+}
+
+.hero img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #172554;
+}
+
+/* About section */
+.about {
+    padding: 5vh 8%;
+    background-color: white;
+}
+
+.about h2,
+.contact h2 {
+    font-size: 2rem;
+}
+
+/* Contact section */
+.contact {
+    padding: 5vh 8%;
+    background-color: #e0f2fe;
+}
+
+/* Footer */
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

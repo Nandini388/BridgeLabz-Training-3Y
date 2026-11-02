@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+}
+
+/* Fixed header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 70px;
+
+    background-color: #1e3a8a;
+    color: white;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 30px;
+
+    z-index: 1000;
+}
+
+/* Dashboard structure */
+.dashboard {
+    display: flex;
+    padding-top: 70px;
+}
+
+/* Sidebar */
+aside {
+    width: 240px;
+    min-height: calc(100vh - 70px);
+
+    background-color: #172554;
+    color: white;
+
+    padding: 30px 20px;
+}
+
+aside nav {
+    display: flex;
+    flex-direction: column;
+}
+
+aside a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+aside a:hover {
+    background-color: #1e40af;
+}
+
+/* Main area */
+main {
+    flex: 1;
+    padding: 40px;
+}
+
+.boxes {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex: 1;
+    min-width: 220px;
+
+    padding: 30px;
+
+    background-color: white;
+    border-radius: 12px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+.box p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+/* Sidebar stacks above content on small screens */
+@media screen and (max-width: 700px) {
+
+    .dashboard {
+        flex-direction: column;
+    }
+
+    aside {
+        width: 100%;
+        min-height: auto;
+    }
+
+    aside nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    main {
+        padding: 25px;
+    }
+}

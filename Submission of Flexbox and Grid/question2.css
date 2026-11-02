@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+}
+
+header {
+    padding: 35px;
+    text-align: center;
+    background-color: #312e81;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+nav {
+    background-color: #1e1b4b;
+    padding: 18px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.section {
+    min-height: 70vh;
+    padding: 100px 10%;
+    border-bottom: 5px solid white;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.section p {
+    max-width: 800px;
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+/* Linear gradient */
+.home {
+    background: linear-gradient(135deg, #dbeafe, #c4b5fd);
+}
+
+/* Parallax-like fixed background */
+.history {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url("https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=1600&q=80");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* Radial gradient */
+.places {
+    background: radial-gradient(circle, #fef3c7, #f59e0b);
+}
+
+/* Second fixed background */
+.culture {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0.55)
+    ), url("https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1600&q=80");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+footer {
+    background-color: #1e1b4b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
