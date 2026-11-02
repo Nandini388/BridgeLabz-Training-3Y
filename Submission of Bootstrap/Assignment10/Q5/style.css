@@ -1,0 +1,47 @@
+/* Custom Bootstrap Theme Variables */
+:root {
+    --bs-primary: #6c3baa;
+    --bs-font-sans-serif: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--bs-font-sans-serif);
+    background-color: #f8f5fc;
+}
+
+.blog-header {
+    background-color: var(--bs-primary);
+}
+
+h2, h3 {
+    color: var(--bs-primary);
+}
+
+.btn-theme {
+    background-color: var(--bs-primary);
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-theme:hover {
+    background-color: #492477;
+    color: white;
+}
+
+.blog-card {
+    transition: 0.3s;
+}
+
+.blog-card:hover {
+    transform: translateY(-8px);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.blog-footer {
+    background-color: #35204d;
+}
