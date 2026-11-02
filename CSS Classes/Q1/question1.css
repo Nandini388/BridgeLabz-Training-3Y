@@ -1,0 +1,95 @@
+/* Basic page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #222;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #263238;
+    color: white;
+}
+
+.examples {
+    min-height: 70vh;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.example {
+    width: 220px;
+    min-height: 180px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px #bbb;
+    text-align: center;
+}
+
+/* :hover */
+a {
+    color: #1565c0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: #1565c0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* :focus */
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4caf50;
+    color: white;
+}
+
+button:focus {
+    outline: 3px solid #ff9800;
+}
+
+/* :active */
+.active-btn:active {
+    background-color: #e53935;
+    transform: scale(0.9);
+}
+
+/* :nth-child() */
+li {
+    padding: 6px;
+    list-style: none;
+}
+
+li:nth-child(odd) {
+    background-color: #e3f2fd;
+}
+
+li:nth-child(even) {
+    background-color: #fff3e0;
+}
+
+ul {
+    padding: 0;
+}
+
+/* Responsive design */
+@media (max-width: 900px) {
+    .examples {
+        flex-wrap: wrap;
+    }
+}
