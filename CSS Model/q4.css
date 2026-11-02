@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+
+h1 {
+    text-shadow: 3px 3px 5px gray;
+}
+
+.cards {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card {
+    width: 220px;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+}
+
+.shadow1 {
+    box-shadow: 5px 5px 10px gray;
+}
+
+.shadow2 {
+    box-shadow: 0 8px 20px gray;
+}
+
+.shadow3 {
+    box-shadow: 10px 10px 0px #aaa;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px gray;
+}
