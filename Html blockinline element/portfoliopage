@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nandini Raj Srivastava - Portfolio</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <h1>Nandini Raj Srivastava</h1>
+
+        <p>
+            Computer Science Student |
+            AI & Data Science Enthusiast
+        </p>
+
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+
+        <a href="#about">About Me</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+    <main>
+
+        <!-- About Me -->
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <p>
+                I am a Computer Science student interested in Artificial
+                Intelligence and Data Science. I am looking for internship
+                opportunities in the AI and Data Science domain.
+            </p>
+
+            <blockquote>
+                The future belongs to those who keep learning.
+            </blockquote>
+
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+
+            <h2>Skills</h2>
+
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>C</li>
+                <li>MongoDB</li>
+            </ul>
+
+            <h3>Professional Skills</h3>
+
+            <ul>
+                <li>Effective Communication</li>
+                <li>Teamwork</li>
+                <li>Problem Solving</li>
+                <li>Time Management</li>
+            </ul>
+
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+
+            <h2>Projects</h2>
+
+            <ol>
+
+                <li>
+                    Phishing URL Detector
+
+                    <p>
+                        GitHub:
+                        <a href="https://github.com/Nandini388/phinset-url">
+                            Phishing URL Detector Repository
+                        </a>
+                    </p>
+                </li>
+
+            </ol>
+
+        </section>
+
+    </main>
+
+    <!-- Contact information -->
+    <aside id="contact">
+
+        <h2>Contact Information</h2>
+
+        <p>
+            Email:
+            <a href="mailto:nandini.srivastava.cs24@gla.ac.in">
+                nandini.srivastava.cs24@gla.ac.in
+            </a>
+        </p>
+
+        <p>
+            Phone: +91 9838305886
+        </p>
+
+        <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/nandini-raj-srivastava-08b419373">
+                LinkedIn Profile
+            </a>
+        </p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/Nandini388">
+                GitHub Profile
+            </a>
+        </p>
+
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            &copy; 2026 Nandini Raj Srivastava. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>

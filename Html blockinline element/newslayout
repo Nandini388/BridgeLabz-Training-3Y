@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daily News</title>
+</head>
+<body>
+
+    <!-- News website heading -->
+    <header>
+        <h1>Daily News</h1>
+    </header>
+
+    <!-- News categories -->
+    <nav>
+        <a href="#sports">Sports</a> |
+        <a href="#technology">Technology</a> |
+        <a href="#politics">Politics</a>
+    </nav>
+
+    <main>
+
+        <!-- Sports article -->
+        <article id="sports">
+
+            <h2>Latest Sports News</h2>
+
+            <time datetime="2026-08-21">
+                August 21, 2026
+            </time>
+
+            <p>
+                Sports continue to bring excitement and entertainment
+                to people around the world.
+            </p>
+
+            <a href="https://example.com">
+                Source
+            </a>
+
+        </article>
+
+        <!-- Technology article -->
+        <article id="technology">
+
+            <h2>Latest Technology Trends</h2>
+
+            <time datetime="2026-08-21">
+                August 21, 2026
+            </time>
+
+            <p>
+                Artificial Intelligence and new technologies are
+                transforming the way people work and learn.
+            </p>
+
+            <a href="https://example.com">
+                Source
+            </a>
+
+        </article>
+
+        <!-- Politics article -->
+        <article id="politics">
+
+            <h2>Latest Political News</h2>
+
+            <time datetime="2026-08-21">
+                August 21, 2026
+            </time>
+
+            <p>
+                New policies and initiatives continue to shape
+                the future of the country.
+            </p>
+
+            <a href="https://example.com">
+                Source
+            </a>
+
+        </article>
+
+    </main>
+
+    <!-- Popular topics -->
+    <aside>
+
+        <h2>Popular Topics</h2>
+
+        <ul>
+            <li>Artificial Intelligence</li>
+            <li>Technology</li>
+            <li>Sports</li>
+            <li>Education</li>
+        </ul>
+
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact: news@example.com</p>
+        <p>&copy; 2026 Daily News. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

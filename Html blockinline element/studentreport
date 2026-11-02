@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Report</title>
+</head>
+<body>
+
+    <h1>GLA University</h1>
+
+    <h2>Student Report</h2>
+
+    <table border="1">
+
+        <!-- Main heading -->
+        <tr>
+            <th rowspan="2" title="Student Information">
+                Student
+            </th>
+
+            <th colspan="5">
+                Subjects
+            </th>
+        </tr>
+
+        <!-- Subject headings -->
+        <tr>
+            <th>Java</th>
+            <th>Python</th>
+            <th>SQL</th>
+            <th>C</th>
+            <th>MongoDB</th>
+        </tr>
+
+        <!-- Student information -->
+        <tr>
+            <td>Nandini Raj Srivastava</td>
+            <td>Completed</td>
+            <td>Completed</td>
+            <td>Completed</td>
+            <td>Completed</td>
+            <td>Completed</td>
+        </tr>
+
+        <!-- Total row -->
+        <tr>
+            <td colspan="4">
+                <strong>Total</strong>
+            </td>
+
+            <td colspan="2">
+                Not Applicable
+            </td>
+        </tr>
+
+        <!-- Percentage row -->
+        <tr>
+            <td colspan="4">
+                <strong>Percentage</strong>
+            </td>
+
+            <td colspan="2">
+                Not Provided
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>

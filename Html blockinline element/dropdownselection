@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Selection</title>
+</head>
+<body>
+
+    <h1>Travel Destination Selection</h1>
+
+    <!-- Country selection -->
+    <label for="country">Country:</label>
+
+    <select id="country">
+        <option selected>India</option>
+        <option>USA</option>
+        <option>France</option>
+        <option>Japan</option>
+    </select>
+
+    <br><br>
+
+    <!-- State selection -->
+    <label for="state">State:</label>
+
+    <select id="state">
+        <option selected>Uttar Pradesh</option>
+        <option>Maharashtra</option>
+        <option>Rajasthan</option>
+        <option>Goa</option>
+    </select>
+
+    <br><br>
+
+    <!-- City selection -->
+    <label for="city">City:</label>
+
+    <select id="city">
+        <option selected>Varanasi</option>
+        <option>Mathura</option>
+        <option>Lucknow</option>
+        <option>Agra</option>
+    </select>
+
+    <br><br>
+
+    <!-- Tourist place selection -->
+    <label for="place">Favorite Tourist Place:</label>
+
+    <select id="place">
+        <option selected>Taj Mahal</option>
+        <option>Ghats of Varanasi</option>
+        <option>Gateway of India</option>
+        <option>India Gate</option>
+    </select>
+
+    <!-- Summary -->
+    <p>
+        My selected country is India, my state is Uttar Pradesh,
+        my city is Varanasi, and my favorite tourist place is the
+        Taj Mahal.
+    </p>
+
+</body>
+</html>

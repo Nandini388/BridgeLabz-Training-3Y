@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Nandini Raj Srivastava - Resume</title>
+</head>
+
+<body>
+
+    <!-- Header containing name and contact information -->
+    <header>
+
+        <h1>Nandini Raj Srivastava</h1>
+
+        <p>Phone: +91 9838305886</p>
+
+        <p>
+            Email:
+            <a href="mailto:nandini.srivastava.cs24@gla.ac.in">
+                nandini.srivastava.cs24@gla.ac.in
+            </a>
+        </p>
+
+        <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/nandini-raj-srivastava-08b419373">
+                LinkedIn Profile
+            </a>
+        </p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/Nandini388">
+                GitHub Profile
+            </a>
+        </p>
+
+    </header>
+
+    <!-- Navigation links -->
+    <nav>
+        <a href="#about">About</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#education">Education</a>
+    </nav>
+
+    <main>
+
+        <!-- About Me -->
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <p>
+                I am a Computer Science student interested in Artificial
+                Intelligence and Data Science. I am looking for internship
+                opportunities in the AI and Data Science domain.
+            </p>
+
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+
+            <h2>Skills</h2>
+
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>C</li>
+                <li>MongoDB</li>
+            </ul>
+
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+
+            <h2>Projects</h2>
+
+            <ol>
+                <li>
+                    Phishing URL Detector -
+                    <a href="https://github.com/Nandini388/phinset-url">
+                        GitHub Repository
+                    </a>
+                </li>
+            </ol>
+
+        </section>
+
+        <!-- Education -->
+        <section id="education">
+
+            <h2>Education</h2>
+
+            <table border="1">
+
+                <tr>
+                    <th>Course</th>
+                    <th>Institute</th>
+                </tr>
+
+                <tr>
+                    <td>Bachelor of Technology in Computer Science</td>
+                    <td>GLA University, Mathura</td>
+                </tr>
+
+                <tr>
+                    <td>Intermediate</td>
+                    <td>D.C. Lewis Memorial (ISC), Renukoot</td>
+                </tr>
+
+                <tr>
+                    <td>High School</td>
+                    <td>D.C. Lewis Memorial (CSE), Renukoot</td>
+                </tr>
+
+            </table>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>© 2026 Nandini Raj Srivastava</p>
+
+    </footer>
+
+</body>
+
+</html>

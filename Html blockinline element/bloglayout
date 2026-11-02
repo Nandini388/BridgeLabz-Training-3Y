@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nandini's Blog</title>
+</head>
+<body>
+
+    <!-- Blog header -->
+    <header>
+        <h1>Nandini's Blog</h1>
+    </header>
+
+    <!-- Blog navigation -->
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Blogs</a> |
+        <a href="#">About</a>
+    </nav>
+
+    <main>
+
+        <!-- First blog -->
+        <article>
+
+            <h2>My First Blog</h2>
+
+            <time datetime="2026-08-21">
+                August 21, 2026
+            </time>
+
+            <p>
+                This is my first blog where I am sharing my experience
+                of learning HTML and web development.
+            </p>
+
+            <blockquote>
+                Every expert was once a beginner.
+            </blockquote>
+
+        </article>
+
+        <!-- Second blog -->
+        <article>
+
+            <h2>Things I Learned This Week</h2>
+
+            <time datetime="2026-08-21">
+                August 21, 2026
+            </time>
+
+            <p>
+                This week I learned HTML semantic elements, tables,
+                forms, lists and different HTML attributes.
+            </p>
+
+            <blockquote>
+                Learning never stops.
+            </blockquote>
+
+        </article>
+
+    </main>
+
+    <!-- Blog footer -->
+    <footer>
+        <p>Written by Nandini Raj Srivastava</p>
+    </footer>
+
+</body>
+</html>

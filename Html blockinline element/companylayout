@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Company Layout</title>
+</head>
+<body>
+
+    <!-- Company name -->
+    <header>
+        <h1>TechNova Solutions</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a> |
+        <a href="#services">Services</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main content -->
+    <main>
+
+        <!-- About company -->
+        <section id="about">
+            <h2>About the Company</h2>
+
+            <p>
+                TechNova Solutions provides innovative technology solutions
+                in software development, artificial intelligence and data
+                analytics.
+            </p>
+        </section>
+
+        <!-- Services -->
+        <section id="services">
+            <h2>Services Offered</h2>
+
+            <ul>
+                <li>Web Development</li>
+                <li>Software Development</li>
+                <li>Artificial Intelligence</li>
+                <li>Data Analytics</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- CEO quotation -->
+    <aside>
+        <h2>CEO Message</h2>
+
+        <blockquote>
+            Innovation and continuous learning are the keys to success.
+        </blockquote>
+
+        <p>— CEO, TechNova Solutions</p>
+    </aside>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>Email: contact@technova.com</p>
+        <p>Address: Mathura, Uttar Pradesh, India</p>
+    </footer>
+
+</body>
+</html>

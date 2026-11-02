@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quotation Showcase</title>
+</head>
+<body>
+
+    <h1>Quotation Showcase</h1>
+
+    <!-- First quotation -->
+    <section>
+
+        <h2>Motivation</h2>
+
+        <blockquote>
+            The future depends on what you do today.
+        </blockquote>
+
+        <p>
+            <cite>Mahatma Gandhi</cite>
+        </p>
+
+    </section>
+
+    <!-- Second quotation -->
+    <section>
+
+        <h2>Success</h2>
+
+        <blockquote>
+            Success is not final, failure is not fatal.
+        </blockquote>
+
+        <p>
+            <cite>Winston Churchill</cite>
+        </p>
+
+    </section>
+
+    <!-- Third quotation -->
+    <section>
+
+        <h2>Knowledge</h2>
+
+        <blockquote>
+            An investment in knowledge pays the best interest.
+        </blockquote>
+
+        <p>
+            <cite>Benjamin Franklin</cite>
+        </p>
+
+    </section>
+
+    <!-- Summary -->
+    <p>
+        Quotes inspire people by providing motivation, wisdom and
+        meaningful ideas from the experiences of others.
+    </p>
+
+</body>
+</html>
